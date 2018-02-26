@@ -1,0 +1,10 @@
+jsonpickle
+Flask==0.10.1
+gevent
+gunicorn
+h5py
+keras
+numpy
+pandas
+scikit-learn
+soundfile
