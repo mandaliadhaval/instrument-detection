@@ -56,5 +56,5 @@ if __name__ == '__main__':
     app.debug = True
 
     # needed since Flask dev mode interacts badly with TensorFlow
-    http_server = WSGIServer(('', 5000), app)
+    http_server = WSGIServer(app)
     http_server.serve_forever()
