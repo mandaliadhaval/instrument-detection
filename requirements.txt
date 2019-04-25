@@ -1,4 +1,4 @@
-tensorflow==1.0.1
+tensorflow>=1.6.0
 jsonpickle
 Flask==0.10.1
 gevent
